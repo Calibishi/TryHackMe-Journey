@@ -20,13 +20,14 @@ Networks:
 - IPv6 and IPv4.
 
 - Spoofing simulation.
-
+  
 - Reflection/ Research: Privacy and Protection deep dive - Researched VPN, How private browsers only clear the local device (wow), and more about System Services (Specifically Significant locations), more on how Google tracks information, turning off personalized ads (to reduce attraction to ads and reduce wasted time), "Anonymity Tools" can be used for good reasons like journalists hiding from oppressive regimes, whistleblowers protecting identites, etc.
 
 # 7/19 Ping (Packet InterNet Groper)
 - Uses ICMP (Internet Control Message Protocol) packets to see how well a connection is holding up between devices.
 
 # 7/20 Ping(ing) a Mac IP.
+- Command: ping 4.5.6.7
 - IP Address Ping Speed vs. Router Ping Speed.
 - How do they keep Mac Addresses from overlapping when creating devices in a factory?
   -> Managed by the IEEE (Institute of electrical and electronics engineers), global org based in the US.
