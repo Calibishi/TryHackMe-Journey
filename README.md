@@ -9,7 +9,7 @@ A record of my hands-on cybersecurity learning through TryHackMe labs, tools, an
 
 # Detected Malicious IP Address & Blocked It.
 
-# 7/17 - Spoofing a MAC Address to Access Paid Internet. IP and Mac Addresses.
+# 7/17 - Spoofing a MAC Address to Access Internet. IP and Mac Addresses.
 
 Networks:
 - 1989, Tim Berners-Lee, World Wide Web, WWW.
@@ -17,10 +17,19 @@ Networks:
   -> IP Address, Internet Protocol, 4 Octects.
   -> MAC Address, Media Access Control, 12 character hexadecimal.
 - Public and Private networks.
-- IPv6 and IPv4
+- IPv6 and IPv4.
 
 - Spoofing simulation.
 
 - Reflection/ Research: Privacy and Protection deep dive - Researched VPN, How private browsers only clear the local device (wow), and more about System Services (Specifically Significant locations), more on how Google tracks information, turning off personalized ads (to reduce attraction to ads and reduce wasted time), "Anonymity Tools" can be used for good reasons like journalists hiding from oppressive regimes, whistleblowers protecting identites, etc.
 
-7/19 - Ping
+# 7/19 Ping (Packet InterNet Groper)
+- Uses ICMP (Internet Control Message Protocol) packets to see how well a connection is holding up between devices.
+
+# 7/20 Ping(ing) a Mac IP.
+- IP Address Ping Speed vs. Router Ping Speed.
+- How do they keep Mac Addresses from overlapping when creating devices in a factory?
+  -> Managed by the IEEE (Institute of electrical and electronics engineers), global org based in the US.
+    -+  companies request a certain amount of Mac addresses for a price.
+  -> Owning bulk Mac Address as a potential digital real estate.
+  -> 1 OUI (Organizationally Unique Identifier) ~ $2800 USD rn, include 16,777,216 unique Mac Addresses.
