@@ -34,3 +34,5 @@ Networks:
     -+  companies request a certain amount of Mac addresses for a price.
   -> Owning bulk Mac Address as a potential digital real estate.
   -> 1 OUI (Organizationally Unique Identifier) ~ $2800 USD rn, include 16,777,216 unique Mac Addresses.
+
+# 
