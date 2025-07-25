@@ -35,4 +35,17 @@ Networks:
   -> Owning bulk Mac Address as a potential digital real estate.
   -> 1 OUI (Organizationally Unique Identifier) ~ $2800 USD rn, include 16,777,216 unique Mac Addresses.
 
-# 
+# Introduction to LAN Room! (7/25/25)
+
+- Local Area Network. Topology (the lay of the network land or design).
+-> Star Topology - all devices connect to a centralized networking device. Most common. More expensive (more cabling/equipment/maintenance). Reliable and Scaleable, but not cheap.
+  
+-> Bus Topology - think databus, or like the leaves off the branches of a tree. There's one main line (backbone) that run laterally and each device branches off of it. Difficult fixes since different data has to travel down the same main line. Cost-effective tho. If main line breaks, no bueno for anyone.
+
+-> Ring Topology - like it sounds. Wierd because devices only send received data if they themselves don't have something to send. There is good sense of order in this. Less cabling, so less money to start, but one chain. If it breaks, the entire network breaks.
+
+Switches - they're like power strips for internet connections. Smarter than hubs and repeaters. They're like mailboxes in the neighborhood. but the routers are like the main front gate, connecting to the internet.
+
+Routers - connects networks and passes data between them. give devices access to the internet. 
+
+- Rabbit hole dive with home internet, modems, routers, switches and routers, and different pathways.
