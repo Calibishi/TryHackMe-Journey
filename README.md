@@ -3,7 +3,7 @@ A record of my hands-on cybersecurity learning through TryHackMe labs, tools, an
 
 # July 10th - The start of it all. Hacking First Website.
 - I hacked my first website today (a fake bank account website).
-- Reflection: It was pretty cool lol. I always did feel saucy using the terminal. Now, it has been put to good use.
+- Reflection: It was pretty cool. Nothing quite like using the terminal. Now, it has been put to good use.
 
 - Tools used: GoBuster, Terminal/Command Line.
 
@@ -49,3 +49,14 @@ Switches - they're like power strips for internet connections. Smarter than hubs
 Routers - connects networks and passes data between them. give devices access to the internet. 
 
 - Rabbit hole dive with home internet, modems, routers, switches and routers, and different pathways.
+
+# A Preview of Subnetting (7/26)
+
+- Splitting up a big network into smaller ones.
+- Splitting up the number of hosts, subnet masks (32 bit like IP addresses), subnetting for places with many devices.
+    -> Ex: Coffee shop with Guest_Wifi & Staff_Wifi.
+- Network Address - identity of the start of a network
+- Host Address - address used to identify devices on a network.
+- Default Gateway (Address) - special addy to a device on the same network with the ability to send data to other networks.
+
+
