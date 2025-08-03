@@ -59,4 +59,16 @@ Routers - connects networks and passes data between them. give devices access to
 - Host Address - address used to identify devices on a network.
 - Default Gateway (Address) - special addy to a device on the same network with the ability to send data to other networks.
 
+# ARP (Address Resolution Protocol) (8/2)
+
+- tech in charge of allowing devices (Mac Address) to idendify themselves on the a network (IP Address).
+- cache: a ledger to store information on. In ARP context, the cache holds the names of all the devices on the network.
+- ARP Request and Reply
+
+# DHCP (Dynamic Host Configuration Protocol)
+
+- IP Address are set/named manually or automatically by DHCP.
+- DCHP Discover, DHCP Offer, DCHP Request, DCHP ACK.
+
+# 
 
