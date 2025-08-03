@@ -70,5 +70,8 @@ Routers - connects networks and passes data between them. give devices access to
 - IP Address are set/named manually or automatically by DHCP.
 - DCHP Discover, DHCP Offer, DCHP Request, DCHP ACK.
 
-# 
+[Intro to Lan Room Complete]
+
+# OSI Room!
+
 
