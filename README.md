@@ -61,9 +61,9 @@ Routers - connects networks and passes data between them. give devices access to
 
 # ARP (Address Resolution Protocol) (8/2)
 
-- tech in charge of allowing devices (Mac Address) to idendify themselves on the a network (IP Address).
-- cache: a ledger to store information on. In ARP context, the cache holds the names of all the devices on the network.
-- ARP Request and Reply
+- tech that lets devices (IP Address) find the MAC Address of other devices.
+- cache: a ledger to store information on. In ARP context, it's a ledger of IP to MAC info for quick lookups.
+- ARP Request and Reply to identify devices on a network.
 
 # DHCP (Dynamic Host Configuration Protocol)
 
