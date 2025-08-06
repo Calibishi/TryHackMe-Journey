@@ -1,9 +1,9 @@
 # TryHackMe-Journey
 A record of my hands-on cybersecurity learning through TryHackMe labs, tools, and challenges.
 
-# July 10th - The start of it all. Hacking First Website.
+# July 10th - Hacking First Website.
 - I hacked my first website today (a fake bank account website).
-- Reflection: It was pretty cool. Nothing quite like using the terminal. Now, it has been put to good use.
+- Reflection: Nothing quite like using the terminal. Now, it has been put to good use.
 
 - Tools used: GoBuster, Terminal/Command Line.
 
@@ -32,7 +32,7 @@ Networks:
 - How do they keep Mac Addresses from overlapping when creating devices in a factory?
   -> Managed by the IEEE (Institute of electrical and electronics engineers), global org based in the US.
     -+  companies request a certain amount of Mac addresses for a price.
-  -> Owning bulk Mac Address as a potential digital real estate.
+  -> Owning bulk Mac Addresses as a potential digital real estate.
   -> 1 OUI (Organizationally Unique Identifier) ~ $2800 USD rn, include 16,777,216 unique Mac Addresses.
 
 # Introduction to LAN Room! (7/25/25)
@@ -70,8 +70,16 @@ Routers - connects networks and passes data between them. give devices access to
 - IP Address are set/named manually or automatically by DHCP.
 - DCHP Discover, DHCP Offer, DCHP Request, DCHP ACK.
 
+
 [Intro to Lan Room Complete]
 
-# OSI Room!
+# OSI Room! (8/6)
+
+[OSI Room Start]
+
+- Open Systems Interconnects Model, framework for how networked devices send, recieve, and interpret data for each other.
+- There is 7 layers to the OSI model,
+- Encapsulation.
+    1. Physical
 
 
