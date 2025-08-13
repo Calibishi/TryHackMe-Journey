@@ -19,7 +19,7 @@ Networks:
 - Public and Private networks.
 - IPv6 and IPv4.
 
-- Spoofing simulation.
+- Spoofing simulation. What is Spoofing? - Disguising a program to identify as something else in order to access other files/data.
   
 - Reflection/ Research: Privacy and Protection deep dive - Researched VPN, How private browsers only clear the local device (wow), and more about System Services (Specifically Significant locations), more on how Google tracks information, turning off personalized ads (to reduce attraction to ads and reduce wasted time), "Anonymity Tools" can be used for good reasons like journalists hiding from oppressive regimes, whistleblowers protecting identites, etc.
 
@@ -52,6 +52,10 @@ Routers - connects networks and passes data between them. give devices access to
 
 # A Preview of Subnetting (7/26)
 
+Qs: What is subnetting?
+    What is ARP?
+    What is DHCP?
+
 - Splitting up a big network into smaller ones.
 - Splitting up the number of hosts, subnet masks (32 bit like IP addresses), subnetting for places with many devices.
     -> Ex: Coffee shop with Guest_Wifi & Staff_Wifi.
@@ -73,13 +77,33 @@ Routers - connects networks and passes data between them. give devices access to
 
 [Intro to Lan Room Complete]
 
-# OSI Room! (8/6)
+# OSI Room! (8/6) 
 
 [OSI Room Start]
+
+Qs: What is the name of the piece of hardware that all networked devices come with?
+    What does OSPF and RIP mean in terms of the Network layer?
+    What is the difference between TCP and UDP? Which is faster?
+    What does DNS stand for?
 
 - Open Systems Interconnects Model, framework for how networked devices send, recieve, and interpret data for each other.
 - There is 7 layers to the OSI model,
 - Encapsulation.
-    1. Physical
+    1. Physical- (ethernet cables, etc.)
+    2. Data Link- (IP, MAC [Media Access Control], and NIC [Network Interface Card, Answer])
+    3. Network- (Open Shortest Path First, Routing Information Protocol, Routers, sending packets [small pieces of data]).
+    4. Transport- transmitting packets across a network via Transmission Control Protocol vs User Datagram Protocol.
+       -> TCP is reliable, is slower, must have an established connection. UDP is fast, doesnt' care about full recieval, and does not need an established connection.
+    5. Session- established when all the packets are translated and formateed correctly to be sent over. All sessions are unique, data cannot travel over multiple sessions at one time.
+    6. Presentation - acts as a translator for different devices.
+    7. Application - layer that provides the GUI and other protocols like DNS (Domain Name System).
+
+[OSI Room Complete]
+
+# Packets and Frames Room (8/13)
+
+[P & F Room Start]
+
+Qs: 
 
 
