@@ -93,10 +93,11 @@ Qs: What is the name of the piece of hardware that all networked devices come wi
     2. Data Link- (IP, MAC [Media Access Control], and NIC [Network Interface Card, Answer])
     3. Network- (Open Shortest Path First, Routing Information Protocol, Routers, sending packets [small pieces of data]).
     4. Transport- transmitting packets across a network via Transmission Control Protocol vs User Datagram Protocol.
-       -> TCP is reliable, is slower, must have an established connection. UDP is fast, doesnt' care about full recieval, and does not need an established connection.
-    5. Session- established when all the packets are translated and formateed correctly to be sent over. All sessions are unique, data cannot travel over multiple sessions at one time.
-    6. Presentation - acts as a translator for different devices.
-    7. Application - layer that provides the GUI and other protocols like DNS (Domain Name System).
+       -> TCP is reliable, is slower, must have an established connection. UDP is fast, doesnt' care about full recieval, and does not need an established connection
+       -> For file downloads, sending emails, and file transfers we would use TCP.
+    6. Session- established when all the packets are translated and formateed correctly to be sent over. All sessions are unique, data cannot travel over multiple sessions at one time.
+    7. Presentation - acts as a translator for different devices.
+    8. Application - layer that provides the GUI and other protocols like DNS (Domain Name System).
 
 [OSI Room Complete]
 
@@ -104,6 +105,19 @@ Qs: What is the name of the piece of hardware that all networked devices come wi
 
 [P & F Room Start]
 
-Qs: 
+Qs: What is piece of data that does have IP addressing? What about if it does not contain IP addressing?
+    What is the process of the 3-Way Handshake?
+    What ensures the integrity of the data in a TCP Packet.
 
+- Packets, a sliver of data containing header and info like Internet Protocol Addressing and payload (actual data), Layer 3 (Network).
+- Frame, the envelope that the packet gets sent in. Refers to encapsulating information. Layer 2 (Data Link).
+- The 3-Way Handshake, SYNchronize -> SYNchronize/ACKnowledge -> ACKnowledge.
+- CheckSum, a header that checks the integrity of the data, a caluclation done on both devices that must be equal or else something went wrong.
 
+- UDP is a stateless protocol that does not require a constant connection. Many headers are the same as TCP.
+  -> Good for applications that can afford some data being lost (voice chat or video streaming).
+
+- Ports are places where data can be exchanged. They are specific to whatever information can be passed through that port. Port 80 is where all web browsers send data over.
+- Other notable protocols, FTP [File Transfer Protocol], HTTP, HTTPS, SMB [Server Message Block], SSH [Secure Shell], RDP [Remote Desk Protocol].
+
+Tools: "nc" , Netcat to connect to specificed IP and port, in the terminal.
