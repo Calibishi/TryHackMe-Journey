@@ -101,6 +101,7 @@ Qs: What is the name of the piece of hardware that all networked devices come wi
 
 [OSI Room Complete]
 
+
 # Packets and Frames Room (8/13)
 
 [P & F Room Start]
@@ -112,12 +113,51 @@ Qs: What is piece of data that does have IP addressing? What about if it does no
 - Packets, a sliver of data containing header and info like Internet Protocol Addressing and payload (actual data), Layer 3 (Network).
 - Frame, the envelope that the packet gets sent in. Refers to encapsulating information. Layer 2 (Data Link).
 - The 3-Way Handshake, SYNchronize -> SYNchronize/ACKnowledge -> ACKnowledge.
-- CheckSum, a header that checks the integrity of the data, a caluclation done on both devices that must be equal or else something went wrong.
+- CheckSum, a header that checks the integrity of the data, a calculation done on both devices that must be equal or else something went wrong.
 
 - UDP is a stateless protocol that does not require a constant connection. Many headers are the same as TCP.
   -> Good for applications that can afford some data being lost (voice chat or video streaming).
 
 - Ports are places where data can be exchanged. They are specific to whatever information can be passed through that port. Port 80 is where all web browsers send data over.
-- Other notable protocols, FTP [File Transfer Protocol], HTTP, HTTPS, SMB [Server Message Block], SSH [Secure Shell], RDP [Remote Desk Protocol].
+- Other notable protocols, FTP [File Transfer Protocol], HTTP, HTTPS, SMB [Server Message Block], SSH [Secure Shell], RDP [Remote Desktop Protocol].
 
 Tools: "nc" , Netcat to connect to specificed IP and port, in the terminal.
+
+[Room Complete]
+
+
+# Extending Your Network Room (cont.)
+
+[E_Y_N Room Start]
+
+Qs: What device configures Port Forwarding?
+    What are Firewalls? And how are they different to Port Forwarding?
+    What are VPNs and what is the strongest type?
+    How are Routers different from Switches?
+    Explain the difference between a Layer 2 switch and Layer 3 switch.
+
+- Port Forwarding, allows devices on different networks to connect to applications and services (like web servers), connecting to the Internet, configured on router.
+- Without it, only local devices on the same network can use the applications and services (intranet).
+  -> We see this a lot with companies who have specific software that is shared only between devices on the same network of the company.
+- Port forwarding is not the same as firewall tech which controls the traffic across the port forwarding path.
+
+- Firewalls.
+- Will permit or deny entry traffic of info, performs Packet Inspection: "Who are you? Where are you going? Where are you from? What protocols do you use?"
+- Operate at Network and Transport layers of OSI (3 & 4)
+- Act as Border Patrol between ports and connections.
+- Main types are Stateful and Stateless, looking at behaviour of the entire connection (consumes many resources) vs. individual packets (not as useful).
+
+Practical: Configured a firewall to stop an attack of malicious packets from reaching the webserver 203.0.110.1
+
+Virtual Private Networks (VPNs)
+- securely established connections between devices on different networks called tunnels, forming their own private network.
+  -> Some VPN tech today: PPP [Point to Point {/Tunneling} Protocol], IPSec [Internet Protocol Security] - strong encryption but hardest to establish.
+
+- Routers, connect different networks and pass data between them via "routing."
+  -> Very different from swtiches.
+
+- VLAN, Virtual Local Access Network.
+
+- Swtiches, allow devices to forward frames to the connected devices (like routers) using their MAC address [Layer 2].
+  -> Layer 3 switches can forward frames and route packets to other devices via IP.
+  
