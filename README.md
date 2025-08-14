@@ -162,9 +162,20 @@ Virtual Private Networks (VPNs)
   -> Layer 3 switches can forward frames and route packets to other devices via IP.
 
 
-# DNS in Detail (cont.)
+# DNS in Detail (8/14)
 
 [DNS Room Start]
+
+Qs: What is DNS and what does it represent?
+
+- Domain Name System takes place of the complicated IP address number each device gets when connecting to the internet used to reach a webiste or server on the internet.
+  -> usually provided by router (internal IP address), then the ISP gives a public IP address to communicate on the over internet (over HHTPS for ex).
+
+- Domain Heiarchy, TLD [Top Level Domain], Second Level Domain, Subdomain
+  -> less than 253 characters, no underscores.
+  -> Two types: gTLD [Generic Top Level Domains], ccTLD [Country Code TLD].
+    -+ Ex: .com [commercial uses], .edu [educational], .org / .us, .ca, .co.uk
+
 
 
   
