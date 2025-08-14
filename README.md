@@ -160,4 +160,11 @@ Virtual Private Networks (VPNs)
 
 - Swtiches, allow devices to forward frames to the connected devices (like routers) using their MAC address [Layer 2].
   -> Layer 3 switches can forward frames and route packets to other devices via IP.
+
+
+# DNS in Detail (cont.)
+
+[DNS Room Start]
+
+
   
