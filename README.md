@@ -176,6 +176,11 @@ Qs: What is DNS and what does it represent?
   -> Two types: gTLD [Generic Top Level Domains], ccTLD [Country Code TLD].
     -+ Ex: .com [commercial uses], .edu [educational], .org / .us, .ca, .co.uk
 
+- HTTP Methods: (8/21)
+  -> GET - get's information from the web server.
+  -> POST - for submitting data and potentially creating new records from the web server.
+  -> PUT - update any information in the web server.
+  -> DELETE - Delete (ya know.. from the web server).
 
 
   
