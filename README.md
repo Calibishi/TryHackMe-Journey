@@ -182,5 +182,8 @@ Qs: What is DNS and what does it represent?
   -> PUT - update any information in the web server.
   -> DELETE - Delete (ya know.. from the web server).
 
+- HTTP Status Codes (8/27):
+  -> Ranges: 200 (Success), 300 (Redirection), 400 (Client Error), 500 (Server Error)
+    -> Notable: 201 (New successful creation), 404 (Page not found), & 401 (Not authorized).
 
-  
+
