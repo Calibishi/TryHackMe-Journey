@@ -186,6 +186,108 @@ Qs: What is DNS and what does it represent?
   -> Ranges: 200 (Success), 300 (Redirection), 400 (Client Error), 500 (Server Error)
     -> Notable: 201 (New successful creation), 404 (Page not found), & 401 (Not authorized).
 
-#   (11/13)
+#   (12/11/25)
+
+Different Types of Request Headers (from Client to server): 
+  1) Host- specific websidt if web server hosts multiple websites
+  2) User-Agent: your browser software and version number.
+  3) Content Length
+  4) Accept-Encoding: compression methods supported
+  5) Cookie- data sent to the server to remember your info.
+
+Common Response Headers:
+  1) Set-Cookie
+  2) Cache-Control: how long to store cach before reuqesting again.
+  3) Content-Type: Type of data being returned (HTML, CSS, PDF, Video, etc)
+  4) Content-Encoding: as above
+
+Note: HTTP is stateless (does not keep track of previous requests).
+
+Cookies are mainly used for web authentication (though they have many purposes).
+
+Q: Want to know what cookies are being sen to the server? Use the developer tools, click "Network" tab and look at each tab labeled "Cookies."
+
+# Simulation: w/ PUT, GET, POST, and DELETE requests with HTTPS in the URL Bar with parameters.
+
+
+# How Websites Work:
+
+When visting a website, your browser makes a requests to a web server.
+  This web server is a dedicated computer somewhere else that handles the requests.
+
+Classic Setup of Websites:
+  1) Front-end (Client-side): the way your browser renders a website. (render is just display/convert code to visuals/things)
+  2) Back-end (Server-side): a serve that processes requests and returns a response.
+
+HTML Structure overview.
+  - View any HTML by right clicking -> View/Show Page Source.
+
+JavaScript overview.
+  - <script></script> tags
+  - remotely with the src attribute.
+  - "onclick" and "onhover"
+
+Sensative Data Exposure: 
+  * If a developer does not remove login credentials, then this data may be viewed in the page source HTML elements simply.
+  * Checking this should be ONE OF THE FIRST THINGS you do when assessing a web app for security.
+
+# Simulation: Using 'View Page Source' to find test login credentials in the source code of a page.
+
+HTML Injection:
+  - a vulnerability that happens when unfiltered user input is displayed on the page.
+  - Fix: Sanitize (filter) anything the user inputs.
+    -  Never trust the user input.
+   
+  # Simulation: Inject a malicous link into a website using HTML on a input that doesn't sanitize user input.
+
+Load Balancers- are used to
+  1) ensure high traffic websites can handle the load
+  2) provide a failover in case a server becomes unresponsive.
+  - uses algorithms like round-robin (sends to each server in turn) or weighted (checks how many requests a server is currently dealing with.
+  3) perform health checks, make sure things are ruinning smoothly.
+
+CDNs - Content Delivery Networks
+  - host static files from your website and host them across thousands of servers ArOuNd tHe WoRlD.
+      - when a user requests one of the hosted files, the CDN works out the nearest server by physical location and sends the request there inside of the using a server on the other side of the world.
+   
+Databases - way of storing information for their users.
+  - Web servers communicate with them.
+
+WAF - Web Application Firewall
+  1) used to protect webserver from attacks or hacking.
+  2) analyses web requests for common attack techniques.
+  3) uses rate limiting, checking if an excessive amount of web requests are being sent, requests from IP per sec.
+    - if suspicious, the requests are dropped and never sent.
+
+Web Server - a software that listens for incoming connections and then uses HTTP protocols to send web content back to the user.
+  - web server software like Apache, Nginx, NodeJS, IIS.
+  - delivers files from the root directiory, /var/www/html for Linux and C:\inetpub\wwwroot for Windows.
+
+Virtual Hosts
+  - text- based configuration files
+  - web servers can host multiple websites (no limit?)
+
+Static and Dynamic Content - either never changes or can change with different requests. 
+  - The changes are processed in the backend.
+    - The result is seen in the front end.
+   
+Scripting and Backend Languages - The sky is the limit.
+  - can interact with databases, call external serives, processs data from user, and more.
+
+* Difference between Scripting and OOP languages? Scripting is how code runs (fast development and automation), backend is where the code runs powering service logic and data handling, and OOP is how you organize complex programs that can be easily reused.
+    -Languages like Python and Java have multiple masks.
+    - Python is scripting plus backend plus object, oriented programming, for example example. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
