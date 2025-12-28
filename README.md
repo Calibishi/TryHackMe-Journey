@@ -279,7 +279,12 @@ Scripting and Backend Languages - The sky is the limit.
     - Python is scripting plus backend plus object, oriented programming, for example example. 
 
 
+# Linux Fundamentals
 
+Created a 1991 by Linus Torvalds, a Finnish CS student. 
+Based on UNIX operating system.
+Open source, variants UBUNTU and DEBIAN.
+  - Open source just means free to the public, can be modified distributed used, and viewed without problems.
 
 
 
