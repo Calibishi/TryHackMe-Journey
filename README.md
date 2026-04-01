@@ -287,6 +287,13 @@ Open source, variants UBUNTU and DEBIAN.
   - Open source just means free to the public, can be modified distributed used, and viewed without problems.
 
 
+# Computer Fundamentals
+
+- Layout of computer/desktop.
+- Client/server Architecture
+  -> Using Inspect, Headers, and Response through Network of webpage.
+- Different types of computers, including embedded systems, IOT devices, etc.
+
 
 
 
